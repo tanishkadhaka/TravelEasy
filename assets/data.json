@@ -1,0 +1,107 @@
+{
+    "site": {
+      "title": "TravelEasy",
+      "favicon": "LOGO.png",
+      "fonts": [
+        {
+          "name": "Playfair",
+          "url": "https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap"
+        }
+      ],
+      "stylesheets": [
+        "./style.css"
+      ],
+      "sections": {
+        "header": {
+          "helpline": {
+            "title": "For Further Inquires",
+            "phone": "+91 9999999999"
+          },
+          "navbar": [
+            { "link": "#home", "text": "Home" },
+            { "link": "#about", "text": "About Us" },
+            { "link": "#destination", "text": "Destination" },
+            { "link": "#package", "text": "Packages" },
+            { "link": "#contact", "text": "Contact Us" }
+          ],
+          "button": "Book Now"
+        },
+        "hero": {
+          "title": "EXPAND YOUR HORIZONS.",
+          "buttons": ["Learn More", "Book Now"]
+        },
+        "tourSearch": {
+          "fields": [
+            { "name": "destination", "type": "text", "placeholder": "Enter Destination" },
+            { "name": "people", "type": "number", "placeholder": "No. of People" },
+            { "name": "checkin", "type": "date" },
+            { "name": "checkout", "type": "date" }
+          ],
+          "submitButton": "Inquire Now"
+        },
+        "destinations": [
+          {
+            "name": "BALI",
+            "description": "Fusce hic augue velit wisi ips quibusdam pariatur, iusto.",
+            "image": "./assets/BALI.png",
+            "rating": 5
+          },
+          {
+            "name": "TOKYO",
+            "description": "Fusce hic augue velit wisi ips quibusdam pariatur, iusto.",
+            "image": "./assets/TOKYO.png",
+            "rating": 5
+          },
+          {
+            "name": "THAILAND",
+            "description": "Fusce hic augue velit wisi ips quibusdam pariatur, iusto.",
+            "image": "./assets/THAILAND.png",
+            "rating": 5
+          }
+        ],
+        "packages": [
+          {
+            "title": "Have Fun in Thailand",
+            "duration": "7D/6N",
+            "price": "6000Rs.",
+            "location": "Thailand",
+            "image": "./assets/thailand copy.png"
+          },
+          {
+            "title": "Go to Netherlands",
+            "duration": "7D/6N",
+            "price": "70000Rs.",
+            "location": "Netherlands",
+            "image": "./assets/netherlands.png"
+          },
+          {
+            "title": "Enjoy a Vacation in Italy",
+            "duration": "7D/6N",
+            "price": "6700Rs.",
+            "location": "Italy",
+            "image": "./assets/italy.png"
+          }
+        ],
+        "cta": {
+          "title": "Book your Next Trip with us!",
+          "button": "Contact Us Anytime"
+        },
+        "footer": {
+          "contact": {
+            "phone": "+91 99999999",
+            "email": "info.traveleasy.com",
+            "address": "122413, Gurugram"
+          },
+          "socialLinks": [
+            { "platform": "Facebook", "link": "#" },
+            { "platform": "Twitter", "link": "#" }
+          ],
+          "subscribe": {
+            "placeholder": "Enter Your Email",
+            "button": "Subscribe"
+          }
+        }
+      }
+    }
+  }
+  

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Now - TravelEasy</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #2c3e50;
+    }
+
+    form {
+      margin-top: 20px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+      color: #34495e;
+    }
+
+    input, select, button {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    button {
+      background-color: #27ae60;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #2ecc71;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Book Your Trip</h1>
+    <form action="#" method="POST">
+      <label for="name">Full Name</label>
+      <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+      <label for="destination">Destination</label>
+      <select id="destination" name="destination" required>
+        <option value="">Select a destination</option>
+        <option value="bali">Bali</option>
+        <option value="tokyo">Tokyo</option>
+        <option value="thailand">Thailand</option>
+        <option value="netherlands">Netherlands</option>
+        <option value="italy">Italy</option>
+      </select>
+
+      <label for="dates">Travel Dates</label>
+      <input type="text" id="dates" name="dates" placeholder="e.g., 2024-12-01 to 2024-12-10" required>
+
+      <label for="people">Number of Travelers</label>
+      <input type="number" id="people" name="people" placeholder="Enter the number of travelers" required>
+
+      <button type="submit">Submit Booking</button>
+    </form>
+    <a href="index.html" class="btn">Back to Homepage</a>
+  </div>
+  <link rel="stylesheet" href="common.css">
+
+</body>
+
+</html>
